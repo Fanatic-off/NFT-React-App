@@ -1,39 +1,39 @@
 @import '../../../../../variables';
 
-.creator-list{
+.creator-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
-    
-    .creator{
+
+    .creator {
         border-radius: 20px;
         background: $background-color;
         padding: 20px;
         display: grid;
         gap: 20px;
         justify-content: center;
-        
-        .avatar{
+
+        .avatar {
             display: flex;
             justify-content: center;
         }
-        
-        .description{
+
+        .description {
             display: grid;
             gap: 10px;
-            
-            .sales{
+
+            .sales {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 gap: 10px;
                 white-space: nowrap;
-                
-                .total{
+
+                .total {
                     color: #858584;
                 }
             }
-            
-            .name{
+
+            .name {
                 text-transform: capitalize;
                 font-size: 22px;
                 font-weight: 600;

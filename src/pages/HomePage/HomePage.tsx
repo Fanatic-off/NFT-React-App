@@ -3,14 +3,16 @@ import { HeroSection } from "./components/HeroSection/HeroSection";
 import { TrendingCollection } from "./components/Trending Collection/Trending Collection";
 import { Footer } from "../../components/Footer/Footer";
 import { TopCreators } from "./components/TopCreators/TopCreators";
+import { BrowseCategories } from "./components/Browse Categories/Browse Categories";
 
-export const HomePage = () =>{
-    return(
+export const HomePage = () => {
+    return (
         <>
-        <HeroSection />
-        <TrendingCollection />
-        <TopCreators />
-        <Footer />
+            <HeroSection />
+            <TrendingCollection />
+            <TopCreators />
+            <BrowseCategories />
+            <Footer />
         </>
     )
 }

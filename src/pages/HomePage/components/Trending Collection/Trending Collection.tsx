@@ -6,12 +6,12 @@ import cat from '../../../../assets/Cat.png'
 import bear from '../../../../assets/Bear.png'
 import mrFox from '../../../../assets/Avatar Mr Fox.png'
 
-const collections : Collection[] =[
+const collections: Collection[] = [
     {
         mainImgSrc: dog,
         firstFooterImgSrc: cat,
         secondFooterImgSrc: bear,
-        footerSign : "DSGN Animals",
+        footerSign: "DSGN Animals",
         amount: "1025+",
         playerSrc: mrFox,
         playerName: "MrFox",
@@ -20,7 +20,7 @@ const collections : Collection[] =[
         mainImgSrc: dog,
         firstFooterImgSrc: cat,
         secondFooterImgSrc: bear,
-        footerSign : "DSGN Animals",
+        footerSign: "DSGN Animals",
         amount: "1025+",
         playerSrc: mrFox,
         playerName: "MrFox",
@@ -29,7 +29,7 @@ const collections : Collection[] =[
         mainImgSrc: dog,
         firstFooterImgSrc: cat,
         secondFooterImgSrc: bear,
-        footerSign : "DSGN Animals",
+        footerSign: "DSGN Animals",
         amount: "1025+",
         playerSrc: mrFox,
         playerName: "MrFox",
@@ -44,10 +44,10 @@ interface Collection {
     footerSign: string;
     playerSrc: string;
     playerName: string;
-  }
+}
 
-export const TrendingCollection = () =>{
-    return(
+export const TrendingCollection = () => {
+    return (
         <div className="main-block">
             <div className="container">
                 <div className="headline">
@@ -59,13 +59,13 @@ export const TrendingCollection = () =>{
 
                 <div className="collection-list">
                     {
-                        collections.map((item)=>(
+                        collections.map((item) => (
                             <div className="column">
                                 <img src={item.mainImgSrc}></img>
                                 <div className="collection">
-                                        <img src={item.firstFooterImgSrc}></img>
-                                        <img src={item.secondFooterImgSrc}></img>
-                                        <button>{item.amount}</button>
+                                    <img src={item.firstFooterImgSrc}></img>
+                                    <img src={item.secondFooterImgSrc}></img>
+                                    <button>{item.amount}</button>
                                 </div>
                                 <div className="column">
                                     <div>{item.footerSign}</div>

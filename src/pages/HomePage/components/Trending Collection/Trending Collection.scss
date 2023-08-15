@@ -1,14 +1,13 @@
 @import '../../../../../variables';
 
-.collection-list{
+.collection-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 
-    .collection{
+    .collection {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 15px;
     }
 }
-

@@ -9,28 +9,28 @@
     align-items: flex-start;
     align-self: stretch;
 
-    h2{
+    h2 {
         font-family: $secondary-font;
     }
-}    
+}
 
-.flex-grow{
+.flex-grow {
     flex: 1 0 0;
 }
 
-.flex-start{
+.flex-start {
     align-items: flex-start;
 }
 
-.grid{
+.grid {
     display: grid;
 }
 
-span{
-    text-transform: capitalize;    
+span {
+    text-transform: capitalize;
 }
 
-.placeholder-footer{
+.placeholder-footer {
     display: flex;
     padding: 20px;
     gap: 10px;
