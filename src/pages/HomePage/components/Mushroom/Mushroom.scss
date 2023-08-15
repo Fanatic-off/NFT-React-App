@@ -1,0 +1,17 @@
+@import '../../../../../variables';
+
+.mushroom {
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+@media (max-width: 850px) {
+    .mushroom {
+        height: 100%;
+    }
+}

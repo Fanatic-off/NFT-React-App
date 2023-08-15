@@ -4,6 +4,7 @@ import { TrendingCollection } from "./components/Trending Collection/Trending Co
 import { Footer } from "../../components/Footer/Footer";
 import { TopCreators } from "./components/TopCreators/TopCreators";
 import { BrowseCategories } from "./components/Browse Categories/Browse Categories";
+import { Mushroom } from "./components/Mushroom/Mushroom";
 
 export const HomePage = () => {
     return (
@@ -12,6 +13,7 @@ export const HomePage = () => {
             <TrendingCollection />
             <TopCreators />
             <BrowseCategories />
+            <Mushroom />
             <Footer />
         </>
     )
