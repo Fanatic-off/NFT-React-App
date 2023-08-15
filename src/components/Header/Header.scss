@@ -1,0 +1,51 @@
+@import '../../../variables';
+
+header{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    
+    .layout-item{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        white-space: nowrap;
+
+        div{
+            padding: 0 20px;
+        }
+    }
+}
+
+button{
+    display: flex;
+    min-height: 60px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: $btn-color;
+    white-space: nowrap;
+}
+
+.fill {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+@media (min-width: 851px) {
+    .mobile-only {
+      display: none !important;
+    }
+}
