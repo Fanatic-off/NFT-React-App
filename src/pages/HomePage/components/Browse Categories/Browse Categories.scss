@@ -1,1 +1,49 @@
 @import '../../../../../variables';
+
+.category-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    
+    .category{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        background: $background-color;
+        overflow: hidden;
+        
+        .category-image{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+            img{
+                width: 100%;
+            }
+            
+            .secondary-picture{
+                padding: 70px;
+            }
+        }
+        
+        .wrapper{
+            position: absolute;
+            display: flex;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(7.5px);
+            width: 100%;
+        }
+        
+        .category-button{
+            padding: 20px 30px 25px 30px;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 140%;
+            text-transform: capitalize;
+        }
+    }
+}
