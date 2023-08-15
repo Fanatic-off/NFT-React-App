@@ -1,1 +1,96 @@
 @import '../../../variables';
+
+.footer{
+    display: flow;
+    flex-direction: column;
+    gap: 30px;
+    color: #CCC;
+    background: $background-color;
+    text-align: left;
+
+    .info{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 30px;
+
+        .main-info{
+            color: white;
+            white-space: nowrap;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%; 
+        }
+
+        .info{
+            display: grid;
+            gap: 20px;
+
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%; 
+        }
+
+        .marketplace{
+            display: grid;
+            gap: 30px;
+
+            .community{
+                display: grid;
+                gap: 15px;
+                
+                .icons{
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+        }
+        
+        .explore{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 25px;
+        }
+
+        .digest{
+            display: grid;
+            gap: 25px;
+
+            .email-form{ 
+                border-radius: 20px;
+                background:white;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                span{
+                    padding: 0 20px;
+                    color: black;
+                }
+
+                button{
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        width: 100%;
+
+        .divider{
+            height: 1px;
+            background: #858584;
+            width: 100%;
+        }
+    }
+}
