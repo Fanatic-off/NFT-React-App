@@ -1,0 +1,43 @@
+@import '../../../../../variables';
+
+.creator-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    
+    .creator{
+        border-radius: 20px;
+        background: $background-color;
+        padding: 20px;
+        display: grid;
+        gap: 20px;
+        justify-content: center;
+        
+        .avatar{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .description{
+            display: grid;
+            gap: 10px;
+            
+            .sales{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+                white-space: nowrap;
+                
+                .total{
+                    color: #858584;
+                }
+            }
+            
+            .name{
+                text-transform: capitalize;
+                font-size: 22px;
+                font-weight: 600;
+            }
+        }
+    }
+}
