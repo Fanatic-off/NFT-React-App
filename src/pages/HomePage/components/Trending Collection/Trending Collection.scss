@@ -1,0 +1,15 @@
+@import '../../../../../variables';
+
+.collection-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    text-align: left;
+
+    .collection{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+    }
+}
+

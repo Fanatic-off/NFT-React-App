@@ -26,3 +26,58 @@ a {
   color: white;
   font-weight: 600;
 }
+
+.main-block{
+  display: flex;
+  padding: 80px 195px;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+button{
+  display: flex;
+  min-height: 60px;
+  padding: 0px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  background: $btn-color;
+  white-space: nowrap;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.player{
+  width: 25px
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.container{
+  display: grid;
+  gap: 60px;
+  width: 100%;
+
+  h2{
+      font-size: 38px;
+      font-weight: 600;
+      text-transform: capitalize;
+  }
+  
+  .headline {
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: flex-end;
+  }
+}

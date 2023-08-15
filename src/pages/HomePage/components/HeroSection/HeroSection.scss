@@ -14,12 +14,6 @@
     }
 }    
 
-.column{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
 .flex-grow{
     flex: 1 0 0;
 }
@@ -32,20 +26,8 @@
     display: grid;
 }
 
-.main-block{
-    display: flex;
-    padding: 80px 195px;
-    align-items: center;
-    gap: 30px;
-    margin: 0 auto;
-
-    span{
-        text-transform: capitalize;
-    }
-}
-
-.player{
-    width: 25px
+span{
+    text-transform: capitalize;    
 }
 
 .placeholder-footer{

@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.scss';
-import { HeroSection } from './pages/HomePage/components/HeroSection/HeroSection';
 import { Header } from './components/Header/Header';
+import { HomePage } from './pages/HomePage/HomePage';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <HeroSection />
+      <HomePage />
     </div>
   );
 }

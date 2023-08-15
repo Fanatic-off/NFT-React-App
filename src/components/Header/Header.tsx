@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.scss'
+import '../../index.scss'
 import logo from '../../assets/logo.png'
 import user from '../../assets/User.svg'
 import burgerMenu from '../../assets/burgerMenu.svg'
